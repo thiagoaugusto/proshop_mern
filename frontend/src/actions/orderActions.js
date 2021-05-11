@@ -47,7 +47,7 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
 
     const config = {
       headers: {
-        Authorization: `${userInfo.token}`,
+        Authorization: `Bearer ${userInfo.token}`,
       },
     };
 
